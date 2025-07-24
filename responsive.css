@@ -1,0 +1,27 @@
+@media screen and (max-width:576px) {
+    .mbl {
+        display: none;
+    }
+
+    .navbar {
+        padding: 30px 50px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .shoping {
+        font-size: 30px;
+        align-items: center;
+    }
+
+    .shoping-img {
+        width: 60px;
+        margin-right: 10px;
+    }
+
+    .flower {
+        flex-direction: column-reverse;
+    }
+}
