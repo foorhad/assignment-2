@@ -5,14 +5,62 @@
 
     .navbar {
         padding: 30px 50px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .logo {
         width: 200px;
+        margin-right: 200px;
     }
 
-    .shoping {
+    .flower {
+        margin-left: 50px;
+        /* margin-right: 20px; */
+    }
+
+    .flower-images {
+        width: 560px;
+    }
+
+
+    .our-plants {
+        padding: 0 30px;
+    }
+
+
+    .card-image {
+        width: 150px;
+    }
+
+    .btn {
+        width: 150px;
+        font-size: 0.50rem;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 0px;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .flower-plants {
+        margin-left: 100px;
+    }
+
+
+    .flower-image {
+        width: 400px;
+    }
+
+    .flower-plants-content {
+        width: 400px;
+    }
+
+    .flower-plants-content .shoping {
         font-size: 30px;
         align-items: center;
     }
@@ -26,22 +74,22 @@
         flex-direction: column-reverse;
     }
 
-    .flower-images {}
 
     .flower-content {
         width: 361;
     }
 
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 30px;
-        column-gap: 0px;
+    .latest-deals-image {
+        flex-direction: column;
+        gap: 30px;
     }
 
-    .our-plants {
-        margin: 0 auto;
+    .dis-fir {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
     }
+
 
     .flower-plants {
         flex-direction: column;
@@ -51,8 +99,14 @@
         display: none;
     }
 
-    .latest-deals-image {
-        flex-direction: column;
+    .colorful-bunch {
+        justify-content: center;
+        align-items: center;
+        width: 530px;
+    }
+
+    .colorful-bunch h1 {
+        font-size: 30px;
     }
 
     .sixty,
@@ -70,6 +124,7 @@
 
     footer {
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
     }
 
     .home ul {
