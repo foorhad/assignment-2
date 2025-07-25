@@ -24,7 +24,8 @@
 .flower,
 .our-plants,
 .flower-plants,
-.latest-deals-image {
+.latest-deals-image,
+footer {
     width: 1140px;
     margin: 0 auto;
 }
@@ -238,4 +239,66 @@ ul {
 .dis-sec .deals-des {
     font-size: 1.75rem;
     color: #ffffff;
+}
+
+/* colorful-bunch */
+.colorful-bunch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    max-width: 100%;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorful-bunch .planst-title {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.search-box {
+    width: 52.5rem;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.email {
+    font-size: 0.80rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.home ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #6B7280;
+    font-size: 0.80rem;
+}
+
+.icon ul li {
+    list-style: none;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.conclution-part .flower-des {
+    font-size: 1rem;
+}
+
+.home ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
