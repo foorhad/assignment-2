@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Inter;
-    background-color: #F5F8FF;
+    /* background-color: #F5F8FF; */
 }
 
 /* special font for large text */
@@ -23,14 +23,16 @@
 .navbar,
 .flower,
 .our-plants,
-.flower-plants {
+.flower-plants,
+.latest-deals-image {
     width: 1140px;
     margin: 0 auto;
 }
 
 .flower,
 .our-plants,
-.flower-plants {
+.flower-plants,
+.latest-deals-image {
     margin-top: 130px;
 }
 
@@ -41,7 +43,8 @@ section {
 /* navbar */
 .navbar,
 .flower,
-.flower-plants {
+.flower-plants,
+.latest-deals-image {
     justify-content: space-between;
     align-items: center;
 }
@@ -140,7 +143,7 @@ ul {
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0;
+    row-gap: 20px;
 }
 
 /* flower section */
@@ -150,7 +153,7 @@ ul {
 }
 
 .flower-list {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     margin-left: 30px;
@@ -173,4 +176,66 @@ ul {
     position: absolute;
     bottom: 490px;
     left: 405px;
+}
+
+
+
+/* latest deals section */
+
+.sixty {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    margin-bottom: 23px;
+    border-radius: 14px;
+    padding: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirty {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    width: 753px;
+    height: 423px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-title {
+    font-size: 1.25;
+    color: #ffffff;
+}
+
+.deals-des {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.dis-sec .deals-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.dis-sec .deals-des {
+    font-size: 1.75rem;
+    color: #ffffff;
 }

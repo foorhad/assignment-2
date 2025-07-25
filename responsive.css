@@ -50,4 +50,17 @@
     .trusted-image {
         display: none;
     }
+
+    .latest-deals-image {
+        flex-direction: column;
+    }
+
+    .sixty,
+    .thirty,
+    .dis-sec,
+    .our-plants-content {
+        width: 367px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
