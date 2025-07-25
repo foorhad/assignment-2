@@ -15,21 +15,33 @@
     display: flex;
 }
 
-/* common color */
+/* common color and styles */
 .gray-color {
     color: #8987A1;
 }
 
-/* main margin */
-main>section {
+.navbar,
+.flower,
+.our-plants,
+.flower-plants {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flower,
+.our-plants,
+.flower-plants {
+    margin-top: 130px;
+}
+
+section {
     margin-top: 130px;
 }
 
 /* navbar */
 .navbar,
-.flower {
-    width: 1140px;
-    margin: 30px auto;
+.flower,
+.flower-plants {
     justify-content: space-between;
     align-items: center;
 }
@@ -45,10 +57,9 @@ main>section {
 
 .shoping {
     gap: 7px;
-
 }
 
-ul li {
+.lst {
     list-style: none;
 }
 
@@ -73,4 +84,93 @@ ul {
 
 .flower-images {
     width: 570px;
+}
+
+/* plants section */
+.planst-title {
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.flower-des-wd {
+    width: 850px;
+    margin: 0 auto;
+
+}
+
+.our-plants-content {
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.card-image {
+    width: 270;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.card:hover {}
+
+.flower-name {
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+
+.plant-price {
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 270px;
+    background-color: #E95A08;
+    padding: 15px 50px;
+    font-size: 0.81rem;
+    color: #ffffff;
+    border: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+/* flower section */
+.flower-image,
+.flower-plants-content {
+    width: 540px;
+}
+
+.flower-list {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.flower-plants-content h1 {
+    margin-bottom: 20px;
+}
+
+.trusted-image {
+    width: 200px;
+    background: none;
+}
+
+.images-box {
+    position: relative;
+}
+
+.trusted-image {
+    position: absolute;
+    bottom: 490px;
+    left: 405px;
 }

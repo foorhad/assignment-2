@@ -5,6 +5,7 @@
 
     .navbar {
         padding: 30px 50px;
+        justify-content: space-around;
     }
 
     .logo {
@@ -23,5 +24,30 @@
 
     .flower {
         flex-direction: column-reverse;
+    }
+
+    .flower-images {}
+
+    .flower-content {
+        width: 361;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 0px;
+    }
+
+    .our-plants {
+        margin: 0 auto;
+    }
+
+    .flower-plants {
+        flex-direction: column;
+    }
+
+    .trusted-image {
+        display: none;
     }
 }
